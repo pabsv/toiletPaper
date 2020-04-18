@@ -1,0 +1,46 @@
+
+.slidecontainer {
+  width: 40%; /*lenght of the bar */
+  margin-left:30%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 20px;
+  border-radius:40px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  background-color: pink;
+}
+
+.slider:hover {
+  opacity: 4;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor: pointer;
+}
+
+#form{
+  text-align: center;
+}
+
+#survival{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+
+body{
+  background-image: url(https://img.freepik.com/free-photo/rolls-unfolded-toilet-paper-blue-background-flat-lay-top-view_127657-22685.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

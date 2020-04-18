@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>HOW MUCH TOILET PAPER LEFT</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+
+		<h1>TOILET PAPER RUSH</h1>
+		<div>
+		 <h1 id="survival"></h1>
+		</div>
+		<form id="form">
+				<p><b><label>Rolls left:  <span id="rolls"></span></label></b>
+				<div class="slidecontainer">
+				  <input type="range" min="1" max="200" value=100 class="slider" id="resultrolls">		
+				</div>
+
+				<p><b><label>Quarintine days left:  <span id="days"></span></label></b>
+				<div class="slidecontainer">
+				  <input type="range" min="1" max="200" value=100 class="slider" id="resultdays">				  
+				</div>
+
+
+				<p><b><label>Potential competition for the rolls:  <span id="ppl"></span></label></b>
+				<div class="slidecontainer">
+				  <input type="range" min="1" max="15" value=5 class="slider" id="resultppl">
+				</div>
+
+				<p><b><label>Life of a roll (in days):  <span id="rdays"></span></label></b>
+				<div class="slidecontainer">
+				  <input type="range" min="1" max="20" value=10 class="slider" id="resultrdays">
+				</div>		
+
+		</form>
+
+		<script src="script.js"></script>
+	</body>
+</html>
